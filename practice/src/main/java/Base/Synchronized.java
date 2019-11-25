@@ -11,11 +11,11 @@ public class Synchronized {
         TestSynchronized test1 = new TestSynchronized();
         TestSynchronized test2= new TestSynchronized();
         new Thread(()->{
-//            test1.test();
+//            test1.Test();
             test1.test();
         }).start();
 
-//        test2.test();
+//        test2.Test();
         test2.test();
     }
 }

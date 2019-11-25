@@ -17,7 +17,7 @@ public class Test2 {
         int b = 0;
         Man man2 = new Man("Tom2");
         System.out.println(man2);
-        Inner inner = new Inner() {
+        new Inner() {
             {
 //                b++; //编译不通过
 //                a++; //编译不通过

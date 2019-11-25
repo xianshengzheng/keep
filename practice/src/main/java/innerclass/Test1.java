@@ -4,9 +4,10 @@ package innerclass;
  * @author Eric
  * @Title: InnerClassTest
  * @date 2019/8/28 10:43
- * @Description: 1.外部类的成员变量
+ * @Description:
+ * 1.外部类的成员变量
  * 2.外部方法或作用域内的局部变量
- * 3外部方法的参数
+ * 3.外部方法的参数
  * <p>
  * 而第一种变量是不需要声明为final的，但后两种是需要声明为final的。那这是为什么呢？
  * 不急，我们首先来看第一个知识点。
@@ -93,7 +94,7 @@ public class Test1 {
     Man man = new Man("Tom");
 
     class Inner {
-        public void test() {
+         void test() {
             a++;
             man = new Man("lisi");
         }
