@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HelloWorldController {
 
+    @RequestMapping("/")
+    public String index(){
+        return "index";
+    }
+
     @ResponseBody
     @RequestMapping("/hello")
     public String hello(){

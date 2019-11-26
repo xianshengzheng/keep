@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-
+        <module>startspring</module>
         <module>practice</module>
         <module>netty</module>
         <module>arithmetic</module>
