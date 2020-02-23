@@ -11,5 +11,13 @@
 
     <artifactId>java8</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.9.8</version>
+        </dependency>
+    </dependencies>
 
 </project>
