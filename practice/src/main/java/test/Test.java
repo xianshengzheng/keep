@@ -30,8 +30,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
-        int[] a = new int[]{2};
-        coinChange(a,3);
+        System.out.println("null".equals((String)null));
     }
 
     public static int coinChange(int[] coins, int amount) {
