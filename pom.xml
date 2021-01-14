@@ -15,6 +15,7 @@
         <module>arithmetic</module>
         <module>designmodel</module>
         <module>java8</module>
+        <module>spring</module>
     </modules>
 
 
