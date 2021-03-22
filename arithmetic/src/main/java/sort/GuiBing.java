@@ -54,6 +54,7 @@ public class GuiBing {
         if (index1 == array1.length) {
             while (index2 < array2.length) {
                 array[left+index1 + index2] = array2[index2];
+
                 index2++;
             }
         } else {
